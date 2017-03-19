@@ -1,0 +1,35 @@
+{
+  "name": "rn-example",
+  "version": "0.1.0",
+  "private": true,
+  "devDependencies": {
+    "babel-eslint": "^7.1.1",
+    "eslint": "^3.17.1",
+    "eslint-plugin-babel": "^4.1.1",
+    "eslint-plugin-flowtype": "^2.30.3",
+    "eslint-plugin-react": "^6.10.0",
+    "flow-bin": "0.37.0",
+    "jest-expo": "^0.2.1",
+    "react-native-scripts": "0.0.18",
+    "react-test-renderer": "~15.4.0"
+  },
+  "main": "./node_modules/react-native-scripts/build/bin/crna-entry.js",
+  "scripts": {
+    "start": "react-native-scripts start",
+    "eject": "react-native-scripts eject",
+    "android": "react-native-scripts android",
+    "ios": "react-native-scripts ios",
+    "test": "node node_modules/jest/bin/jest.js --watch"
+  },
+  "jest": {
+    "preset": "jest-expo"
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^4.0.0",
+    "expo": "14.0.2",
+    "react": "~15.4.0",
+    "react-native": "0.41.2",
+    "react-native-elements": "^0.10.0",
+    "react-navigation": "^1.0.0-beta.7"
+  }
+}

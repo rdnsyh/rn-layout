@@ -1,0 +1,15 @@
+{
+  "expo": {
+    "name": "Layout Exercise",
+    "sdkVersion": "14.0.0",
+    "description": "Just simple exercise for layout login page, learn to use ListView and Navigation",
+    "icon": "./src/icon/icon-twitter-purple.png",
+    "loading": {
+      "icon": "./src/icon/icon-loading-bird.png",
+      "backgroundColor": "#ffd788",
+    },
+    "packagerOpts": {
+      "assetExts": ["ttf"]
+    }
+  }
+}
